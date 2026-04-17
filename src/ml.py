@@ -27,6 +27,7 @@ model = RandomForestClassifier(n_estimators=10) # Small forest for small data
 
 # 4. Train the model
 model.fit(X_train, y_train)
+#
 
 # 5. Make predictions and check accuracy
 predictions = model.predict(X_test)
